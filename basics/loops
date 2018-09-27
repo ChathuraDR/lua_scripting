@@ -1,5 +1,24 @@
+print ("#################### while loop ######################")
 i=1
 while i<=10 do
 	print(i)
 	i = i +1
+end
+
+print ("#################### for loop ########################")
+
+for y=21,30 do
+	print(value)
+end
+
+print ("######################################################")
+
+x = {11,12,13,14,15,16,17,181,19,20}
+for key,val in pairs(x) do
+	print (key .." ".. val)
+end
+
+x = { member1 = "dhanuja", member2 = "avishka", member3="ashan"}
+for key,val in pairs(x) do
+	print (key .." ".. val)
 end
